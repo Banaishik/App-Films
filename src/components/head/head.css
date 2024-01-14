@@ -1,0 +1,25 @@
+.create_account {
+    width: 140px;
+    height: 30px;
+    border: 1px solid #AFAFAF;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #AFAFAF;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+    margin: 0 5px;
+}
+
+
+
+.create_account:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.filter_button:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}

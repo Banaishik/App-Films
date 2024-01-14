@@ -1,0 +1,114 @@
+.wrapper_modal_main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #BFC1CC;
+    z-index: 9999;
+}
+
+.wrapper_modal {
+    position: fixed;
+    height: 500px;
+    width: 350px;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.input_normal {
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0 auto 15px ;
+    width: 340px;
+    height: 30px;
+    border-color: #BFC1CC;
+    padding-left: 8px;
+    transition: border-width 0.1s;
+    border-width: 1px; 
+    font-size: 14px;    
+}
+
+.input_error {
+    outline: none;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    margin: 0 auto 15px ;
+    width: 340px;
+    height: 30px;
+    border-color: #ff0000;
+    color: #ff0000;
+    padding-left: 8px;
+    transition: border-width 0.1s;
+    border-width: 1px; 
+    font-size: 14px;   
+}
+
+.wrapper_modal span {
+    color: #3F61A0;
+    font-size: 18px;
+
+}
+
+.wrapper_modal img {
+    height : 200px;
+    width : 200px;
+    float: center;
+}
+
+
+.title {
+    font-size: 22px;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    color: #1C277A;
+}
+
+.description {
+    font-size: 12px;
+    font-family: Arial Narrow, sans-serif;
+    color: #A3A5AE;
+    margin: 10px 0 15px ;
+}
+
+.warningP {
+    background-color: red;
+}
+
+.next {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00245A;
+    color:  white;
+    width: 45px;
+    height: 30px;
+    float: right;
+    transition: 0.5s ease;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.next:hover {
+    transform: scale(1.1);
+}
+
+.input_error::placeholder {
+    color: #ff0000;
+}

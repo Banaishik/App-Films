@@ -1,0 +1,44 @@
+.icons_favorite {
+    display: inline-block;
+    float: right;
+}
+
+.icons_favorite img {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    float: right;
+}
+
+.icons_favorite:hover img {
+    transform: scale(1.2);
+}
+
+.goBack {
+    transition: 0.5s ease;
+}
+
+.goBack:hover img {
+    transform: scale(1.2);
+}
+.Details {
+    font-family: sans-serif;
+    display: 'inline-block';
+    margin : '20px';
+}
+.static_info {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #696969;
+}
+
+.static_result {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #696969;
+
+}
+
+
+

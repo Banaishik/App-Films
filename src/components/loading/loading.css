@@ -1,0 +1,10 @@
+.loading {
+    width: 500px;
+    height: 500px;
+    margin: 20% 60%;
+}
+
+.loading img {
+    width: 80%;
+    height: 80%;
+}

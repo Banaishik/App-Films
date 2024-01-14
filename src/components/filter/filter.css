@@ -1,0 +1,85 @@
+a {
+    outline: none;
+}
+
+
+.links {
+    font-family: sans-serif;
+    font-size: 35px;
+    margin: 50px 0 70px 0;
+}
+
+.header_filter {
+    font-size: 35px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin:  0 0 30px 0;
+}
+
+.filter {
+    height: 60%;
+    width: 300px;
+    margin: 20px;
+    /* display: "inline-block"; */
+    border: 1px solid #ccc;
+    border-radius : 10px;      
+    padding : 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter_button {
+    width: 140px;
+    height: 30px;
+    border: 1px solid #AFAFAF;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #AFAFAF;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+    margin: 0 5px;
+}
+
+.active {
+    width: 140px;
+    height: 30px;
+    border: 1px solid #000000;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #000000;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+    margin: 0 5px;
+}
+
+
+.search_films_button {
+    width: 75px;
+    height: 55px;
+    cursor: pointer;
+    border: 1px solid #AFAFAF;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #AFAFAF;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: 1s ease;
+    margin: 8px 0 0 2px;
+}
+
+.text_plus {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.search_films_button:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.search_films_button.active:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
